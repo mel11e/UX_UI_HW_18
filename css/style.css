@@ -1,0 +1,250 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navigation {
+    display: flex;
+    justify-content: right;
+
+    padding-left: 16px;
+    padding-top: 6px;
+}
+
+.nav-style:hover {
+    font-weight: 600;
+}
+
+#heroArea {
+    display: flex;
+    padding-top: 30px;
+
+}
+
+.Welcome {
+    font-size: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+
+}
+
+
+.myName {
+    height: 25%;
+    padding-left: 100px;
+}
+.iAm {
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.heroLine {
+    height: 10px;
+    width: 500px;
+    background-color: #E75548;
+}
+
+aside {
+    align-items: left;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+#icon-container {
+    padding-top: 100px;
+    height: 300px;
+    width: 30px;
+}
+
+.icons {
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+}
+
+.featured {
+    height: 680px;
+    width: 250px;
+    background-color: #EAD7C6;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.featured-work {
+    font-display: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.column img{
+    width: 80%;
+    padding: 5px;
+}
+
+.workTitle {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+/* .cs {
+    display: inline-block;
+    height: 18em;
+    width: 18em;
+    padding: 1em;
+} */
+
+.cs1 {
+    display: inline-block;
+    height: 18em;
+    width: 18em;
+    padding: 1em;
+}
+.cs2 {
+    display: inline-block;
+    height: 18em;
+    width: 18em;
+    padding: 1em;
+}
+.cs3 {
+    display: inline-block;
+    height: 18em;
+    width: 18em;
+    padding: 1em;
+}
+
+
+
+.workImages img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+
+
+
+.workImages {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+#aboutGrid {
+    background-color: #EAD7C6;
+}
+
+.aboutMe {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+#aboutText {
+    display: flex;
+    /* min-height: 500px;
+    height: 70vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "photoAbout wordsAbout"
+    "photoAbout aboutLearnMore"; */
+}
+
+#photoAbout {
+   flex-basis: 48%;
+   padding: 15px;
+   align-items: center;
+}
+
+#wordsAbout {
+    flex-basis: 48%;
+}
+
+.nav-style {
+    margin: .5em;
+    float: right;
+    padding-right: 16px;
+}
+
+
+.description-container {
+    padding-bottom: 40px;
+}
+
+.learnMore {
+    background-color: #F2695C;
+    text-align: center;
+    font-size: 16px;
+    font-family: serif;
+    color: white;
+    border: none;
+    padding: 10px 36px;
+    margin: 0;
+}
+
+.learnMore:hover {
+    background-color: #950321;
+}
+
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+.connect-li {
+    display: inline;
+    width: 100%;
+    padding: .5em;
+}
+
+.footer-ul {
+    padding-left: 0;
+    padding-bottom: 15px;
+}
+
+
+.footerBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 100%;
+    background-color: #E75548;
+}
+
+.copyright {
+    height: 10px;
+    width: 10px;
+    padding-left: .5em;
+
+}
+
+.copyright-words{
+    font-size: .75rem;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+
