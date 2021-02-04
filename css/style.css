@@ -154,5 +154,13 @@ footer {
 
 
 @media only screen and (max-width: 600) {
-
+    .workImages {
+        display: grid; 
+         grid-template-columns: 1fr;
+       /* grid-template-rows: 1fr 1fr 1fr; */
+       grid-template-areas: 
+         "cs1"
+         "cs2"
+         "cs3";
+     }
 }

@@ -261,7 +261,7 @@ footer {
     
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .skillsGrid {
        display: grid; 
         grid-template-columns: 1fr;
