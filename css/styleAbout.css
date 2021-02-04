@@ -155,13 +155,13 @@ h4 {
     display: grid;
     grid-template-areas: 'skillArea1 skillArea2 skillArea3';
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     padding-left: 2%;
     padding-right: 2%;
 }
 
-
-
 .skillArea1, .skillArea2, .skillArea3 {
+    display: flexbox;
     padding: 20px;
     width: 300px;
 
@@ -257,16 +257,15 @@ footer {
 
 
 
-@media only screen and (max-width: 600) {
-    
-}
+
 
 @media only screen and (max-width: 600px) {
     .skillsGrid {
-       display: grid; 
+        margin: 0px 5%;
+        display: grid; 
         grid-template-columns: 1fr;
-      /* grid-template-rows: 1fr 1fr 1fr; */
-      grid-template-areas: 
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
         "skillArea1"
         "skillArea2"
         "skillArea3";
